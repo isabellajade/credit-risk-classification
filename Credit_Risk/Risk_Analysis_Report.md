@@ -19,7 +19,7 @@ The purpose of this analysis is to use machine learning to determine how well we
 
 ![Classification Report](../Images/classification_report1.png)
 
-***The balanced accuracy score of the first model is approximately 95%. However, this model is better at predicting low-risk loans than it is high-risk. As the recall for healthy loans is 0.99, whereas the recall for unhealthy loans is 0.91. In the confusion matrix we see there were 56 false positives, and 102 false negatives.***
+The balanced accuracy score of the first model is approximately 95%. However, this model is better at predicting low-risk loans than it is high-risk. As the recall for healthy loans is 0.99, whereas the recall for unhealthy loans is 0.91. In the confusion matrix we see there were 56 false positives, and 102 false negatives.
 
 ### Machine Learning Model 2
 
@@ -35,7 +35,7 @@ The purpose of this analysis is to use machine learning to determine how well we
 
 ![Classification Report](../Images/classification_report2.png)
 
-<sup>The balanced accuracy score of this second model is approximately 99%. This is also true for the recall, which is 0.99 for both low and high-risk loans. This model predicts high-risk loans much better than the first. In the confusion matrix we see there were 4 false positives, and 116 false negatives.</sup>
+The balanced accuracy score of this second model is approximately 99%. This is also true for the recall, which is 0.99 for both low and high-risk loans. This model predicts high-risk loans much better than the first. In the confusion matrix we see there were 4 false positives, and 116 false negatives.
 
 ## Summary
 
